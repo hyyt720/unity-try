@@ -288,12 +288,12 @@ MonoBehaviour:
   jumpSpeed: 15
   dashSpeed: 25
   dashDuration: 0.2
-  dashCooldown: 0
+  dashCooldown: 1.5
   dashUsageTimer: 0
   groundCheck: {fileID: 1503307775}
-  groundCheckDistance: 1.45
+  groundCheckDistance: 1.4
   wallCheck: {fileID: 2086120897}
-  wallCheckDistance: 0.5
+  wallCheckDistance: 0.4
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
@@ -351,7 +351,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 354728308}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 2a175be9c88d39843a09794a402c9d50, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
