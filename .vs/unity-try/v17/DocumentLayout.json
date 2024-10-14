@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\rpg game\\unity-try\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playerprimaryattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerprimaryattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playeranimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerGroundedState.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerGroundedState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerGroundedState.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerGroundedState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerGroundedState.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:50:45.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerIdleState.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerIdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerIdleState.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerIdleState.cs*",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerIdleState.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:50:27.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerAnimationTrigger.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerAnimationTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnimationTrigger.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerAnimationTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerAnimationTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:47:44.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerState.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerState.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:45:40.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerStateMachine.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerStateMachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStateMachine.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerStateMachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerStateMachine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:45:35.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMoveState.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerMoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMoveState.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerMoveState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMoveState.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:45:03.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerPrimaryAttack.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerPrimaryAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerPrimaryAttack.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerPrimaryAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerPrimaryAttack.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:44:28.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
