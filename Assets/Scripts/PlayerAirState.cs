@@ -29,5 +29,6 @@ public class PlayerAirState : PlayerState
         {
             player.SetVelocity(player.moveSpeed * .8f * xInput, rb.velocity.y);
         }
+
     }
 }

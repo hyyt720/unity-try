@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player: MonoBehaviour
 {
-
+    //各变量
     [Header("Move info")]
     [SerializeField] public float moveSpeed = 15f;
     [SerializeField] public float jumpSpeed = 15f;
@@ -27,11 +27,13 @@ public class Player: MonoBehaviour
     public int facingDir { get; private set; } = 1;
     private bool facingRight = true;
 
+    //组件引用
     #region Components
     public Animator anim {  get; private set; }
     public Rigidbody2D rb { get; private set; }
     #endregion
 
+    //状态声明
     #region States
     public PlayerStateMachine stateMachine { get; private set; }
     public PlayerIdleState idleState { get; private set; }
@@ -43,11 +45,13 @@ public class Player: MonoBehaviour
     public PlayerWallJumpState wallJump { get; private set; }
 
     public PlayerPrimaryAttack primaryAttack { get; private set; }
+
+    public PlayerDashAttack dashAttack { get; private set; }
     #endregion
 
     public void Awake()
     {
-        
+        //变量初始化
         stateMachine = new PlayerStateMachine();
         idleState = new PlayerIdleState(this, stateMachine, "Idle");
         moveState = new PlayerMoveState(this, stateMachine, "Move");
@@ -58,10 +62,12 @@ public class Player: MonoBehaviour
         wallJump = new PlayerWallJumpState(this, stateMachine, "Jump");
 
         primaryAttack = new PlayerPrimaryAttack(this, stateMachine, "Attack");
+        dashAttack = new PlayerDashAttack(this, stateMachine, "DashAttack");
     }
 
     private void Start()
     {
+        //组件绑定
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
         stateMachine.Initialize(idleState);
@@ -75,6 +81,7 @@ public class Player: MonoBehaviour
 
     public void AnimationTrigger() => stateMachine.currentState.AnimationFinishTrigger();
 
+    //检测冲刺
     private void CheckForDashInput()
     {
         if (IsWallDetected()) return;
@@ -92,21 +99,26 @@ public class Player: MonoBehaviour
         }
     }
 
+    //设置速度
     public void SetVelocity(float _xVelocity, float _yVelocity)
     {
         rb.velocity = new Vector2(_xVelocity, _yVelocity);
         FlipController(_xVelocity);
     }
 
+    //地面与墙体判定
     public bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
     public bool IsWallDetected() => Physics2D.Raycast(groundCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
 
+    //绘制测量墙体与地面线
     private void OnDrawGizmos()
     {
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
         Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
     }
 
+
+    //反转
     public void Flip()
     {
         facingDir = -1 * facingDir;
@@ -114,6 +126,7 @@ public class Player: MonoBehaviour
         transform.Rotate(0,180,0);
     }
 
+    //反转控制
     public void FlipController(float _x)
     {
         if(_x>0 && !facingRight)

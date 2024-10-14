@@ -29,6 +29,11 @@ public class PlayerDashState : PlayerState
             stateMachine.ChangeState(player.wallSlide);
         }
 
+        if (player.IsGroundDetected() && Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            stateMachine.ChangeState(player.dashAttack);
+        }
+
         player.SetVelocity(player.dashSpeed * player.dashDir, 0);
         if (stateTimer<0)
         {
