@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player: MonoBehaviour
+public class Player: Entity
 {
     //各变量
+    [Header("Attack details")]
+    public Vector2[] attackMovement;
+
     [Header("Move info")]
     [SerializeField] public float moveSpeed = 15f;
     [SerializeField] public float jumpSpeed = 15f;
@@ -17,21 +20,10 @@ public class Player: MonoBehaviour
     [SerializeField] private float dashUsageTimer;
     [SerializeField] public float dashDir { get; private set; }
 
-    [Header("Collision info")]
-    [SerializeField] private Transform groundCheck;
-    [SerializeField] private float groundCheckDistance;
-    [SerializeField] private Transform wallCheck;
-    [SerializeField] private float wallCheckDistance;
-    [SerializeField] private LayerMask whatIsGround;
+    
 
-    public int facingDir { get; private set; } = 1;
-    private bool facingRight = true;
 
-    //组件引用
-    #region Components
-    public Animator anim {  get; private set; }
-    public Rigidbody2D rb { get; private set; }
-    #endregion
+    
 
     //状态声明
     #region States
@@ -49,9 +41,10 @@ public class Player: MonoBehaviour
     public PlayerDashAttack dashAttack { get; private set; }
     #endregion
 
-    public void Awake()
+    protected override void Awake()
     {
         //变量初始化
+        base.Awake();
         stateMachine = new PlayerStateMachine();
         idleState = new PlayerIdleState(this, stateMachine, "Idle");
         moveState = new PlayerMoveState(this, stateMachine, "Move");
@@ -65,16 +58,16 @@ public class Player: MonoBehaviour
         dashAttack = new PlayerDashAttack(this, stateMachine, "DashAttack");
     }
 
-    private void Start()
+    protected override void Start()
     {
         //组件绑定
-        anim = GetComponentInChildren<Animator>();
-        rb = GetComponent<Rigidbody2D>();
+        base.Start();
         stateMachine.Initialize(idleState);
     }
 
-    private void Update()
+    protected override void Update()
     {
+        base .Update();
         stateMachine.currentState.Update();
         CheckForDashInput();
     }
@@ -99,43 +92,10 @@ public class Player: MonoBehaviour
         }
     }
 
-    //设置速度
-    public void SetVelocity(float _xVelocity, float _yVelocity)
-    {
-        rb.velocity = new Vector2(_xVelocity, _yVelocity);
-        FlipController(_xVelocity);
-    }
+    
 
-    //地面与墙体判定
-    public bool IsGroundDetected() => Physics2D.Raycast(groundCheck.position, Vector2.down, groundCheckDistance, whatIsGround);
-    public bool IsWallDetected() => Physics2D.Raycast(groundCheck.position, Vector2.right * facingDir, wallCheckDistance, whatIsGround);
-
-    //绘制测量墙体与地面线
-    private void OnDrawGizmos()
-    {
-        Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
-        Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
-    }
+    
 
 
-    //反转
-    public void Flip()
-    {
-        facingDir = -1 * facingDir;
-        facingRight = !facingRight;
-        transform.Rotate(0,180,0);
-    }
-
-    //反转控制
-    public void FlipController(float _x)
-    {
-        if(_x>0 && !facingRight)
-        {
-            Flip();
-        }
-        else
-        {
-            if (_x < 0 && facingRight) Flip();
-        }
-    }
+    
 }
