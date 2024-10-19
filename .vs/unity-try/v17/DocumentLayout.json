@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\rpg game\\unity-try\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\dialoguebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dialoguebox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerGroundedState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerGroundedState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerIdleState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerIdleState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playerprimaryattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerprimaryattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerAnimationTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerAnimationTrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playeranimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimationtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerStateMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerStateMachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|d:\\rpg game\\unity-try\\assets\\scripts\\playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E46E5B22-751B-7A94-A743-0EDCAFC27591}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerMoveState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMoveState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerPrimaryAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerPrimaryAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,32 +47,42 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerGroundedState.cs",
-              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerGroundedState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerGroundedState.cs",
-              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerGroundedState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerGroundedState.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Title": "dialoguebox.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\dialoguebox.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\dialoguebox.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\dialoguebox.cs",
+              "RelativeToolTip": "Assets\\Scripts\\dialoguebox.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwB8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:50:45.842Z",
+              "WhenOpened": "2024-10-19T09:42:20.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerIdleState.cs",
-              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerIdleState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerIdleState.cs",
-              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerIdleState.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerIdleState.cs*",
-              "ViewState": "AQIAAAMAAAAAAAAAAADwvwUAAAABAAAA",
+              "Title": "PlayerGroundedState.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerGroundedState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerGroundedState.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerGroundedState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerGroundedState.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:50:27.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T05:50:45.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "PlayerIdleState.cs",
+              "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerIdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerIdleState.cs",
+              "ToolTip": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerIdleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerIdleState.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T05:50:27.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PlayerAnimationTrigger.cs",
               "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerAnimationTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnimationTrigger.cs",
@@ -76,12 +90,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerAnimationTrigger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:47:44.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T05:47:44.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "PlayerState.cs",
               "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerState.cs",
@@ -89,12 +102,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerState.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:45:40.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T05:45:40.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PlayerStateMachine.cs",
               "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStateMachine.cs",
@@ -102,12 +114,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerStateMachine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:45:35.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T05:45:35.008Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "PlayerMoveState.cs",
               "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerMoveState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMoveState.cs",
@@ -115,12 +126,11 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerMoveState.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:45:03.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T05:45:03.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "PlayerPrimaryAttack.cs",
               "DocumentMoniker": "D:\\rpg game\\unity-try\\Assets\\Scripts\\PlayerPrimaryAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerPrimaryAttack.cs",
@@ -128,8 +138,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerPrimaryAttack.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAADwvxYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T05:44:28.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T05:44:28.932Z"
             }
           ]
         }
