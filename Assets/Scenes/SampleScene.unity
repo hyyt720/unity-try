@@ -656,7 +656,7 @@ GameObject:
   m_Layer: 6
   m_HasEditorInfo: 1
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -680,6 +680,9 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 8
+  whatIsEnemy:
+    serializedVersion: 2
+    m_Bits: 128
   attackMovement: []
   moveSpeed: 8
   jumpSpeed: 15
@@ -715,7 +718,7 @@ Rigidbody2D:
   m_GameObject: {fileID: 354728308}
   m_BodyType: 0
   m_Simulated: 1
-  m_UseFullKinematicContacts: 0
+  m_UseFullKinematicContacts: 1
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
@@ -995,7 +998,6 @@ GameObject:
   - component: {fileID: 659654231}
   - component: {fileID: 659654233}
   - component: {fileID: 659654232}
-  - component: {fileID: 659654234}
   m_Layer: 5
   m_HasEditorInfo: 1
   m_Name: dialoguebox
@@ -1062,21 +1064,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659654230}
   m_CullTransparentMesh: 1
---- !u!114 &659654234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 659654230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27e2cd86e587714469934dbc02dd368b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueBox: {fileID: 659654230}
-  dialoguetext: {fileID: 837319585}
-  text: "\u8FD9\u662F\u4E00\u6BB5\u5BF9\u8BDD"
 --- !u!1 &784837420
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,6 +4064,7 @@ GameObject:
   - component: {fileID: 1970082458}
   - component: {fileID: 1970082457}
   - component: {fileID: 1970082456}
+  - component: {fileID: 1970082460}
   m_Layer: 5
   m_HasEditorInfo: 1
   m_Name: Canvas
@@ -4168,6 +4156,21 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1970082460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970082455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27e2cd86e587714469934dbc02dd368b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialoguebox: {fileID: 659654230}
+  dialoguetext: {fileID: 837319585}
+  text: "\u8FD9\u662F\u4E00\u6BB5\u5BF9\u8BDD\u3002"
 --- !u!1 &2086120896
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ using UnityEngine.Playables;
 
 public class PlayerAirState : PlayerState
 {
+    private Transform enemy;
     public PlayerAirState(Player _player, PlayerStateMachine _statemachine, string animBoolname) : base(_player, _statemachine, animBoolname)
     {
     }
@@ -23,7 +24,8 @@ public class PlayerAirState : PlayerState
     {
         base.Update();
         if(player.IsWallDetected()) { stateMachine.ChangeState(player.wallSlide); }
-        if(player.IsGroundDetected()) { stateMachine.ChangeState(player.idleState); }
+        if(player.IsGroundDetected() || player.IsEnemyDetected()) { stateMachine.ChangeState(player.idleState); }
+
 
         if(xInput != 0)
         {

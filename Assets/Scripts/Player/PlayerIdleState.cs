@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerIdleState : PlayerGroundedState
 {
-    // Start is called before the first frame update
     public PlayerIdleState(Player _player, PlayerStateMachine _statemachine, string animBoolname) : base(_player, _statemachine, animBoolname)
     {
     }
@@ -25,5 +24,6 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Update();
         if (xInput != 0) stateMachine.ChangeState(player.moveState);
+        else player.SetVelocity(0, rb.velocity.y);
     }
 }

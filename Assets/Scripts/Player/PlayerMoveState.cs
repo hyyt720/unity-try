@@ -23,7 +23,7 @@ public class PlayerMoveState : PlayerGroundedState
     public override void Update()
     {
         base.Update();
-        if (!player.IsGroundDetected()) stateMachine.ChangeState(player.airState);
+        if (!player.IsGroundDetected() && !player.IsEnemyDetected()) stateMachine.ChangeState(player.airState);
         
         player.SetVelocity(xInput * player.moveSpeed,rb.velocity.y);
         if (xInput == 0 || player.IsWallDetected()) stateMachine.ChangeState(player.idleState);

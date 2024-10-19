@@ -31,7 +31,7 @@ public class SkeltonBattleState : EnemyState
 
         if(enemy.IsPlayerDetected().distance != 0 && enemy.IsPlayerDetected().distance<enemy.attackDistance) 
         {
-            Debug.Log(enemy.IsPlayerDetected().distance);
+         // Debug.Log(enemy.IsPlayerDetected().distance); 
             if (CanAttack()) stateMachine.ChangeState(enemy.attackState);
         }
         else
@@ -48,7 +48,6 @@ public class SkeltonBattleState : EnemyState
     {
         if (Time.time >= enemy.LastTimeAttack + enemy.attackCoolDown)
         {
-            
             return true;
         }
         return false;

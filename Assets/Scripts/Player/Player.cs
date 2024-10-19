@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine.UI;
 
 public class Player: Entity
 {
+    public LayerMask whatIsEnemy;
     //¸÷±äÁ¿
     [Header("Attack details")]
     public Vector2[] attackMovement;
@@ -91,11 +93,5 @@ public class Player: Entity
             stateMachine.ChangeState(dashState);
         }
     }
-
-    
-
-    
-
-
-    
+    public virtual RaycastHit2D IsEnemyDetected() => Physics2D.Raycast(wallCheck.position, new Vector2(0,-1), (float)0.1, whatIsEnemy);
 }
