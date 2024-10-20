@@ -24,6 +24,6 @@ public class PlayerIdleState : PlayerGroundedState
     {
         base.Update();
         if (xInput != 0) stateMachine.ChangeState(player.moveState);
-        else player.SetVelocity(0, rb.velocity.y);
+        //else player.SetVelocity(0, rb.velocity.y);
     }
 }

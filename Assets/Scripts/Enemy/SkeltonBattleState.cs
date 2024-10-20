@@ -16,7 +16,7 @@ public class SkeltonBattleState : EnemyState
     {
         base.Enter();
         player = GameObject.Find("Player").transform;
-
+        Debug.Log("I See You!");
         stateTimer = enemy.battleTime;
     }
 

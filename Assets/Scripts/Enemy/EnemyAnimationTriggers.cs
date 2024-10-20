@@ -11,4 +11,9 @@ public class EnemyAnimationTriggers : MonoBehaviour
     {
         enemy.AnimationFinishTrigger();
     }
+
+    private void AnimationMidTrigger()
+    {
+        enemy.AnimationMiddleTrigger();
+    }
 }

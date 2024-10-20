@@ -42,6 +42,17 @@ public class SkeltonAttackState : EnemyState
             }
         stateMachine.ChangeState(enemy.battleState);
         }
+        if (triggerCalled1)
+        {
+            if (enemy.IsPlayerDetected().distance < enemy.attackDistance)
+            {
+                RaycastHit2D hit = enemy.IsPlayerDetected();
+                // 玩家被击中，应用击退力
+                playerRigidbody2D.AddForce(new Vector2(-hit.normal.x * 15, -hit.normal.y * 10), ForceMode2D.Impulse);
+                Debug.Log(hit.normal);
+                // 可以在这里添加其他击中效果，比如播放击中动画、减少玩家生命值等
+            }
+        }
     }
 }
 
