@@ -1,0 +1,4 @@
+repository "The new RPG Course@wechat_os_qy0_sf9dqjjcib4aunlqq0ehg@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

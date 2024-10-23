@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class Entity : MonoBehaviour
 {
+    [Header("Knockback info")]
+    [SerializeField] protected Vector2 knockBackDir;
+    [SerializeField] protected float knockBackDuration;
+    protected bool isKnocked;
+    
     [Header("Collision info")]
+    public Transform attackCheck;
+    public float attackCheckRadium;
     [SerializeField] protected Transform groundCheck;
     [SerializeField] protected float groundCheckDistance;
     [SerializeField] protected Transform wallCheck;
@@ -15,6 +22,7 @@ public class Entity : MonoBehaviour
     #region Components
     public Animator anim { get; private set; }
     public Rigidbody2D rb { get; private set; }
+    public EntityfX fx { get; private set; }
     #endregion
 
     public int facingDir { get; private set; } = 1;
@@ -29,11 +37,32 @@ public class Entity : MonoBehaviour
     {
         anim = GetComponentInChildren<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        fx = GetComponentInChildren<EntityfX>();
     }
 
     protected virtual void Update() 
     {
         
+    }
+
+    //伤害方法
+    public virtual void Damage()
+    {
+        //击中后精灵变白
+        fx.StartCoroutine("FlashFX");
+        StartCoroutine("HitKnockBack");
+        Debug.Log(gameObject.name + "is hitted");
+    }
+
+    //击退检测
+    protected virtual IEnumerator HitKnockBack()
+    {
+        isKnocked = true;
+        //击退速度更改
+        rb.velocity = new Vector2(knockBackDir.x * -facingDir, knockBackDir.y);
+        //击退时长
+        yield return new WaitForSeconds(knockBackDuration);
+        isKnocked = false;
     }
 
     //设置速度
@@ -53,6 +82,7 @@ public class Entity : MonoBehaviour
     {
         Gizmos.DrawLine(groundCheck.position, new Vector3(groundCheck.position.x, groundCheck.position.y - groundCheckDistance));
         Gizmos.DrawLine(wallCheck.position, new Vector3(wallCheck.position.x + wallCheckDistance, wallCheck.position.y));
+        Gizmos.DrawWireSphere(attackCheck.position, attackCheckRadium);
     }
 
     #endregion
